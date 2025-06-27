@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin : 0;
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height : 100vh;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/kpr2.jpg);
+    color: #fff;
+    background-size:cover;
+    background-position: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap :15px;
+
+}
+p{
+    font-size: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+}
+.kpriet{
+    font-size:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;    
+    margin-top: 5px;
+}
+
+.countdown h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+}
+
+
+.countdown small{
+    font-size: 10px;
+}
+
+@media (min-width : 576px) {
+      .kpriet{
+        font-size: 90px;
+
+    }
+    p{
+        font-size: 20px;
+    }
+    .countdown h2{
+        font-size: 50px;
+        font-weight: 500;
+
+    }
+    .countdown{
+        gap:30px;
+        margin-top: 60px;
+    }
+    .countdown small{
+        font-size: 15px;
+    }
+    .box{
+        width: 70px;
+        width: 70px;
+    }
+}
+
+@media (min-width : 768px) {
+    .kpriet{
+        font-size: 120px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 25px;
+    }
+    .countdown h2{
+        font-size: 70px;
+        font-weight: 500;
+
+    }
+    .countdown{
+        gap:45px;
+        margin-top: 90px;
+    }
+    .countdown small{
+        font-size: 20px;
+    }
+    .box{
+        width: 100px;
+        width: 100px;
+    }
+}
+
+
