@@ -7,7 +7,7 @@ console.log(get_days)
 
 function updateTime(){
 let currentDate = new Date();
-let year_2 = new Date('July 14 2025 08:30:00');
+let year_2 = new Date('July 21 2025 21:00:00');
 let diff = year_2 - currentDate;
 let day = Math.floor(diff/1000/60/60/24);
 let hour = Math.floor(diff/1000/60/60)%24;
